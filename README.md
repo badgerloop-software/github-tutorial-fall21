@@ -1,5 +1,5 @@
 # GitHub-Tutorial-Template
-*Author: [Eric Udlis](http://ericudlis.com)*
+*Author: [Eric Udlis](http://ericudlis.com), Ben Everson*
 
 This Tutorial is based on the one from [hubspot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
@@ -14,6 +14,13 @@ Click the "Use this template" button in the top row to copy this readme over to 
 # Instructions (Start Here)
 
 ## Step 0: Install Git
+
+### Ubuntu
+```
+sudo apt install git
+```
+
+### Windows
 
 Download git [here](https://git-scm.com/downloads). Follow the walkthrough, all default options should be good. Don't touch them unless you know what you're doing.
 
@@ -115,8 +122,7 @@ Bucky@Badgerloop~$: git commit -m "Added Eric.txt to mark my contribution"
 
  ## Steep 5.5: A Better Way
 
- When working with several files, it gets tedious to add every single file for one commit. An easier way to commit several files is to run the `git commit` command with the `-am` flag. As we learned eariler `-m` means you're adding a message to your commit. The `-a` flag means you want to add all untracked files. You could combine steps 3 and 4 by only using this command.
-
+ When working with several files, it gets tedious to list every single file for one commit. An easier way to commit several files is to run the `git commit` command with the `-am` flag. As we learned eariler `-m` means you're adding a message to your commit. The `-a` flag means you want to commit all changed files. 
  ```
  Bucky@Badgerloop~$: git commit -am "Added Eric.txt to mark my contribution"
  [Eric_tutorial (root-commit) b345d9a] Added Eric.txt to mark my contribution
